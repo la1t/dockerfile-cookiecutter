@@ -1,0 +1,6 @@
+{
+    "project_name": "My Awesome Image",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "tag": "alpine/helm",
+    "author": "John Doe <john.doe@example.com>"
+}
